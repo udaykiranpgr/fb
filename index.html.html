@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fb9</title>
+	<style >
+		*
+		{
+			margin: 0px;
+		}
+		#main-nav
+		{
+			height: 100px;
+			background-color: rgb(233,233,233);
+		}
+		#main-nav nav
+		{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		#main-nav nav div label a
+		{
+			text-decoration: none;
+		}
+		#main-nav nav div input[type=text],input[type=password]
+		{
+			border:none;
+		}
+		body #main-div #oo
+		{
+			display:flex;
+			flex-direction: row;
+			width: 50%;
+			height: 70vh;
+			float: left;
+		}
+		body #main-div #oo img
+		{
+			margin-left: 110px;
+			margin-top: 80px;
+		}
+		body #main-div #oo span
+		{
+			font-size: 27px;
+			margin-top: 250px;
+			margin-left:-300px;
+		}
+		body #main-div #ol
+		{	
+			width: 50%;
+			height: 70vh;
+			float: right;
+		}
+		body #main-div #ol .kk,.kkk
+		{
+			width: 13%;
+
+		}
+		#main-div section #ol input[type=text],input[type=password],input[type=date]
+		{
+			border:none;
+		}
+		#main-div section #ol input[type=submit]:hover,#main-nav nav div input[type=submit]:hover
+		{
+			box-shadow: 0 0 15px orange;
+
+		}
+	</style>
+</head>
+<body>
+	<div id="main-nav">
+	<nav>
+		<img src="fb.svg" width="250px">
+		<div><form method="post" action="#">
+			<input type="text" name="" placeholder="Email or phone" required="required">&nbsp
+			<input type="Password" name="" placeholder="Password" required="required">&nbsp
+			<input type="submit" value="login" style="padding:  0px 10px ;cursor: pointer;" >&nbsp
+			<br>
+			<input type="checkbox" name="" > &nbsp keep me in logged in &nbsp
+			<label> &nbsp<a href="#"> &nbsp Forgot password</a></label></form>
+		</div>
+	</nav>
+
+	</div>
+	<div id="main-div" style="background-color: black">
+		<section class="you">
+			<article id="oo" style="background-color: rgb(200,200,200);">
+				<img src="fb11.svg" width="300px" height="200px">
+				<span>Facebook helps you connect and share with the people in your life.</span>
+				
+			</article>
+			<article id="ol" style="background-color: rgb(200,200,200);"> <form method="post" action="#">
+				<h1 style="font-size: 30px; margin: 0px;"> Sign Up</h1>
+				<span>It's free and always will be.</span>
+				<br><br>
+				<input type="text" placeholder="First name " class="kk" required="required">
+				<input type="text" placeholder="last name " class="kkk" required="required"><br><br>
+				<input type="text" placeholder="Email or mobile number" required="required" width="30%"><br><br>
+				<input type="password" placeholder="New password" required="required"><br><br>
+				<input type="password" placeholder="Re-enter password" required="required"><br><br>
+				<label>Birthday</label><br>
+				<input type="date" name="" required="required"><br><br>
+				<input type="radio" name="r1">Male
+				<input type="radio" name="r1">Female<br><br>
+				<span>By adding sign Up, you agree to our <a href="#">Terms</a> and that you have rea our <a href="#">Conditions Policy</a>,including our<a href="#">Codine Use</a></span><br><br>
+				<input type="submit" name="" value="Sign Up" style="color: white;padding: 10px 30px ;background-color: green;border-radius: 10px; cursor: pointer;">
+			</form>
+			</article>
+		</section>
+		
+	</div>
+
+</body>
+</html>
